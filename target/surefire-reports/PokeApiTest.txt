@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: PokeApiTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.368 s <<< FAILURE! - in PokeApiTest
+PokeFailTest  Time elapsed: 1.638 s  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected content-type "JSON" doesn't match actual content-type "text/plain; charset=utf-8".
+
+	at PokeApiTest.PokeFailTest(PokeApiTest.java:30)
+
